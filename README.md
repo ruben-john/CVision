@@ -107,3 +107,27 @@ Local development setup instructions using Docker will be provided in later stag
 
 📍 **Current Phase:** Planning & Design  
 📍 **Next Phase:** Feature implementation and AI integration
+
+## Branching Strategy
+
+This project follows **GitHub Flow**:
+
+- The `main` branch contains stable and review-ready code
+- New features are developed in separate feature branches
+- Feature branches are merged into `main` via pull requests
+
+This approach ensures clean version control and safe integration.
+
+## Quick Start – Local Development
+
+### Prerequisites
+- Git
+- Docker Desktop
+
+### Steps
+1. Clone the repository:
+   
+   git clone https://github.com/ruben-john/CVision.git
+   cd CVision
+
+
