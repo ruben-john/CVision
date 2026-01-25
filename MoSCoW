@@ -1,0 +1,27 @@
+## MoSCoW Prioritization
+
+### Must Have
+- User authentication for recruiters and applicants
+- Resume upload and storage
+- AI-based resume parsing
+- Resume relevance scoring
+- Recruiter dashboard to view applicants
+- Job posting and application workflow
+
+### Should Have
+- AI-generated resume summaries
+- Resume filtering and sorting options
+- Application status tracking for applicants
+- Notification system for application updates
+
+### Could Have
+- AI-based resume improvement suggestions
+- Advanced analytics for recruiters
+- Resume comparison between candidates
+- Multi-language resume support
+
+### Won’t Have (For Now)
+- Video interview analysis
+- Integration with external job portals
+- Real-time chat between recruiters and applicants
+- Mobile application
