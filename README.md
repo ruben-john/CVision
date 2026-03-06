@@ -86,6 +86,13 @@ This project follows **GitHub Flow** as the version control strategy:
 - Pull requests are used for merging changes into `main`
 
 ---
+## Software Design
+
+CVision employs a hybrid Client-Server and Layered Architecture to decouple responsive UI components from intensive AI processing tasks. Key design choices include leveraging Google Gemini for semantic NLP candidate scoring instead of rigid parsing pipelines, utilizing AWS DynamoDB for flexible, schema-less resume storage, and enforcing a strict security boundary by using a dual-authentication model (Clerk for applicants, custom JWT for recruiters).
+
+### Architecture Diagrams
+* [Editable Architecture Diagram (Draw.io)](./docs/design/cvision-architecture.drawio)
+* ![Architecture Diagram](./docs/design/cvision-architecture.png)
 
 ## Quick Start – Local Development
 
